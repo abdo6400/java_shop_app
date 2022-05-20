@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/border1"
+    app:cardCornerRadius="30dp"
+    android:elevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="3"
+           android:layout_height="wrap_content">
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/imageCartID"
+                  android:backgroundTint="@color/white"
+                  android:background="@drawable/img8"
+                  />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border1"
+                android:padding="1dp"
+                android:backgroundTint="#FF0303"
+                android:id="@+id/removeItem"
+                android:text="Press Long to Remove Product"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:background="@drawable/border1"
+                android:padding="10dp"
+                android:id="@+id/totalPriceID"
+                android:text="Total Price :"/>
+            <TextView
+                android:textSize="14dp"
+                android:background="@drawable/border1"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:id="@+id/quantityID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity :"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="50dp"
+        android:paddingHorizontal="40dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/border1"
+        android:backgroundTint="#3B000000"
+        android:padding="10dp"
+        android:id="@+id/titleCartID"
+        android:text="Title"/>
+
+</androidx.cardview.widget.CardView>

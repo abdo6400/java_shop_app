@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyShopApp</string>
+    <string name="title">Shop</string>
+    <string name="getstart">Get Started</string>
+
+    <string name="Home">Home</string>
+    <string name="Orders">order</string>
+    <string name="Manageproduct">Manage Product</string>
+    <string name="Title">Title</string>
+    <string name="AddCart">Add To Cart</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="count">Count</string>
+    <string name="cart">Your Cart</string>
+    <string name="total">Total : </string>
+    <string name="totalPrice">0.0 $</string>
+
+</resources>
